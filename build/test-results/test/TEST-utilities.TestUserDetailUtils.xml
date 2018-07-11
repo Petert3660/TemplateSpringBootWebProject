@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="utilities.TestUserDetailUtils" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-07-11T07:03:01" hostname="uK-LT-6343" time="0.547">
+<testsuite name="utilities.TestUserDetailUtils" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-07-11T12:32:34" hostname="uK-LT-6343" time="0.58">
   <properties/>
-  <testcase name="test_isAdminUser_true" classname="utilities.TestUserDetailUtils" time="0.516"/>
-  <testcase name="test_isAdminUser_false" classname="utilities.TestUserDetailUtils" time="0.016"/>
-  <testcase name="test_getUserFullname_more_than_one_user_in_list" classname="utilities.TestUserDetailUtils" time="0.0"/>
-  <testcase name="test_getUserFullname_for_ordinary_user" classname="utilities.TestUserDetailUtils" time="0.015"/>
-  <testcase name="test_getUserFullname_for_superuser" classname="utilities.TestUserDetailUtils" time="0.0"/>
-  <testcase name="test_isAdminUser_more_than_one_user_in_list" classname="utilities.TestUserDetailUtils" time="0.0"/>
+  <testcase name="test_isAdminUser_false" classname="utilities.TestUserDetailUtils" time="0.545"/>
+  <testcase name="test_isAdminUser_true" classname="utilities.TestUserDetailUtils" time="0.005"/>
+  <testcase name="test_isAdminUser_more_than_one_user_in_list" classname="utilities.TestUserDetailUtils" time="0.006"/>
+  <testcase name="test_getUserFullname_for_superuser" classname="utilities.TestUserDetailUtils" time="0.004"/>
+  <testcase name="test_getUserFullname_for_ordinary_user" classname="utilities.TestUserDetailUtils" time="0.009"/>
+  <testcase name="test_getUserFullname_more_than_one_user_in_list" classname="utilities.TestUserDetailUtils" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

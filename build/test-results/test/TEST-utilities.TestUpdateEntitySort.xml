@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="utilities.TestUpdateEntitySort" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-07-12T13:31:32" hostname="uK-LT-6343" time="0.031">
+<testsuite name="utilities.TestUpdateEntitySort" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-07-12T13:32:53" hostname="uK-LT-6343" time="0.026">
   <properties/>
-  <testcase name="test_sortByUserName" classname="utilities.TestUpdateEntitySort" time="0.031"/>
-  <testcase name="test_sortByDate" classname="utilities.TestUpdateEntitySort" time="0.0"/>
+  <testcase name="test_sortByUserName" classname="utilities.TestUpdateEntitySort" time="0.024"/>
+  <testcase name="test_sortByDate" classname="utilities.TestUpdateEntitySort" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

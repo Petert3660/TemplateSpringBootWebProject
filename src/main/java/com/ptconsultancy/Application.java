@@ -122,7 +122,7 @@ public class Application implements CommandLineRunner {
             }
         } while (!StringUtils.isEmpty(prop));
 
-        //Create an initial post
+        //Create and publish an initial post
         UpdateEntity firstPost = new UpdateEntity("#admin", "Welcome", "superuser", "Welcome to this message board that allows users to update details of their most recent activity!", LocalDateTime.now());
         updateEntityRepository.save(firstPost);
     }

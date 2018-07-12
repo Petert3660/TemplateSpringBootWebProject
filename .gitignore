@@ -1,9 +1,9 @@
 # IntelliJ Files
-.idea\*
+.idea/
 
 # Gradle Files
-.gradle\*
+.gradle/
 
 # Build Files
-build\*
+build/
 

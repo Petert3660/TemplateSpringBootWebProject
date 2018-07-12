@@ -52,14 +52,7 @@ public class Application implements CommandLineRunner {
 
         String projectFilename = "";
         File file = new File("build\\libs");
-        if (file.exists()) {
-            File[] files = file.listFiles();
-            for (int i = 0; i < files.length; i++) {
-                if (files[i].getName().contains(".jar")) {
-                    projectFilename = files[i].getName();
-                }
-            }
-        }
+        projectFilename = findJar(projectFilename, file);
 
         file = new File("run.bat");
         if (file.exists()) {
@@ -75,14 +68,7 @@ public class Application implements CommandLineRunner {
             fout.close();
         } else {
             file = new File(".");
-            if (file.exists()) {
-                File[] files = file.listFiles();
-                for (int i = 0; i < files.length; i++) {
-                    if (files[i].getName().contains(".jar")) {
-                        projectFilename = files[i].getName();
-                    }
-                }
-            }
+            projectFilename = findJar(projectFilename, file);
 
             file = new File("run.bat");
             if (file.exists()) {
@@ -103,6 +89,18 @@ public class Application implements CommandLineRunner {
                 System.out.println("************************************************************************");
             }
         }
+    }
+
+    private String findJar(String projectFilename, File file) {
+        if (file.exists()) {
+            File[] files = file.listFiles();
+            for (int i = 0; i < files.length; i++) {
+                if (files[i].getName().contains(".jar")) {
+                    projectFilename = files[i].getName();
+                }
+            }
+        }
+        return projectFilename;
     }
 
     private void populateDatabase() {

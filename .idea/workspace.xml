@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e9731f4-32a8-481b-bff3-02265d34ac25" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptconsultancy/tags/TagsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ptconsultancy/tags/TagsController.java" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -32,22 +34,22 @@
       <file leaf-file-name="adduser.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/adduser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="294">
               <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
-                <marker date="1531310886138" expanded="true" signature="319:345" ph="Simple Message Board Project" />
-                <marker date="1531310886138" expanded="true" signature="437:463" ph="Simple Message Board Project" />
-                <marker date="1531310886138" expanded="true" signature="521:543" ph="Home" />
-                <marker date="1531310886138" expanded="true" signature="597:623" ph="Add New User" />
-                <marker date="1531310886138" expanded="true" signature="680:709" ph="Delete user" />
-                <marker date="1531310886138" expanded="true" signature="954:984" ph="Search for Updates with Particular Tags" />
-                <marker date="1531310886138" expanded="true" signature="1115:1146" ph="Username:" />
-                <marker date="1531310886138" expanded="true" signature="1587:1628" ph="This username is already in use, please select an alternative" />
-                <marker date="1531310886138" expanded="true" signature="1806:1837" ph="Username:" />
-                <marker date="1531310886138" expanded="true" signature="2306:2333" ph="User Role:" />
-                <marker date="1531310886138" expanded="true" signature="2962:2994" ph="User's first name:" />
-                <marker date="1531310886138" expanded="true" signature="3465:3496" ph="User's surname:" />
-                <marker date="1531310886138" expanded="true" signature="3958:3987" ph="Add User" />
+                <marker date="1531403150500" expanded="true" signature="319:345" ph="Simple Message Board Project" />
+                <marker date="1531403150500" expanded="true" signature="437:463" ph="Simple Message Board Project" />
+                <marker date="1531403150500" expanded="true" signature="521:543" ph="Home" />
+                <marker date="1531403150500" expanded="true" signature="597:623" ph="Add New User" />
+                <marker date="1531403150500" expanded="true" signature="680:709" ph="Delete user" />
+                <marker date="1531403150500" expanded="true" signature="954:984" ph="Search for Updates with Particular Tags" />
+                <marker date="1531403150500" expanded="true" signature="1115:1146" ph="Username:" />
+                <marker date="1531403150500" expanded="true" signature="1587:1628" ph="This username is already in use, please select an alternative" />
+                <marker date="1531403150500" expanded="true" signature="1806:1837" ph="Username:" />
+                <marker date="1531403150500" expanded="true" signature="2306:2333" ph="User Role:" />
+                <marker date="1531403150500" expanded="true" signature="2962:2994" ph="User's first name:" />
+                <marker date="1531403150500" expanded="true" signature="3465:3496" ph="User's surname:" />
+                <marker date="1531403150500" expanded="true" signature="3958:3987" ph="Add User" />
               </folding>
             </state>
           </provider>
@@ -59,13 +61,13 @@
             <state relative-caret-position="42">
               <caret line="2" column="76" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="76" />
               <folding>
-                <marker date="1531310886141" expanded="true" signature="319:345" ph="Simple Message Board Project" />
-                <marker date="1531310886141" expanded="true" signature="431:457" ph="Simple Message Board Project" />
-                <marker date="1531310886141" expanded="true" signature="511:533" ph="Home" />
-                <marker date="1531310886141" expanded="true" signature="587:613" ph="Add New User" />
-                <marker date="1531310886141" expanded="true" signature="670:699" ph="Delete user" />
-                <marker date="1531310886141" expanded="true" signature="916:946" ph="New user successfully added" />
-                <marker date="1531310886141" expanded="true" signature="1139:1172" ph="User successfully deleted" />
+                <marker date="1531403150503" expanded="true" signature="319:345" ph="Simple Message Board Project" />
+                <marker date="1531403150503" expanded="true" signature="431:457" ph="Simple Message Board Project" />
+                <marker date="1531403150503" expanded="true" signature="511:533" ph="Home" />
+                <marker date="1531403150503" expanded="true" signature="587:613" ph="Add New User" />
+                <marker date="1531403150503" expanded="true" signature="670:699" ph="Delete user" />
+                <marker date="1531403150503" expanded="true" signature="916:946" ph="New user successfully added" />
+                <marker date="1531403150503" expanded="true" signature="1139:1172" ph="User successfully deleted" />
               </folding>
             </state>
           </provider>
@@ -77,12 +79,12 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1531310886144" expanded="true" signature="199:225" ph="Simple Message Board Project" />
-                <marker date="1531310886144" expanded="true" signature="262:288" ph="Simple Message Board Project" />
-                <marker date="1531310886144" expanded="true" signature="336:358" ph="Home" />
-                <marker date="1531310886144" expanded="true" signature="414:442" ph="New Update" />
-                <marker date="1531310886144" expanded="true" signature="493:515" ph="Tags" />
-                <marker date="1531310886144" expanded="true" signature="571:598" ph="My Updates" />
+                <marker date="1531403150506" expanded="true" signature="199:225" ph="Simple Message Board Project" />
+                <marker date="1531403150506" expanded="true" signature="262:288" ph="Simple Message Board Project" />
+                <marker date="1531403150506" expanded="true" signature="336:358" ph="Home" />
+                <marker date="1531403150506" expanded="true" signature="414:442" ph="New Update" />
+                <marker date="1531403150506" expanded="true" signature="493:515" ph="Tags" />
+                <marker date="1531403150506" expanded="true" signature="571:598" ph="My Updates" />
               </folding>
             </state>
           </provider>
@@ -94,7 +96,7 @@
             <state relative-caret-position="441">
               <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding>
-                <marker date="1531310886148" expanded="true" signature="273:299" ph="Simple Message Board Project" />
+                <marker date="1531403150512" expanded="true" signature="273:299" ph="Simple Message Board Project" />
               </folding>
             </state>
           </provider>
@@ -106,8 +108,8 @@
             <state relative-caret-position="189">
               <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="45" />
               <folding>
-                <marker date="1531310886154" expanded="true" signature="284:310" ph="Simple Message Board Project" />
-                <marker date="1531310886154" expanded="true" signature="483:509" ph="My Updates" />
+                <marker date="1531403150519" expanded="true" signature="284:310" ph="Simple Message Board Project" />
+                <marker date="1531403150519" expanded="true" signature="483:509" ph="My Updates" />
               </folding>
             </state>
           </provider>
@@ -119,10 +121,10 @@
             <state relative-caret-position="105">
               <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
               <folding>
-                <marker date="1531310886156" expanded="true" signature="278:300" ph="Home" />
-                <marker date="1531310886156" expanded="true" signature="356:384" ph="New Update" />
-                <marker date="1531310886156" expanded="true" signature="435:457" ph="Tags" />
-                <marker date="1531310886156" expanded="true" signature="513:540" ph="My Updates" />
+                <marker date="1531403150521" expanded="true" signature="278:300" ph="Home" />
+                <marker date="1531403150521" expanded="true" signature="356:384" ph="New Update" />
+                <marker date="1531403150521" expanded="true" signature="435:457" ph="Tags" />
+                <marker date="1531403150521" expanded="true" signature="513:540" ph="My Updates" />
               </folding>
             </state>
           </provider>
@@ -134,13 +136,13 @@
             <state relative-caret-position="168">
               <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
               <folding>
-                <marker date="1531310886159" expanded="true" signature="272:298" ph="Simple Message Board Project" />
-                <marker date="1531310886159" expanded="true" signature="578:604" ph="Post a New Update" />
-                <marker date="1531310886159" expanded="true" signature="786:827" ph="Update Title" />
-                <marker date="1531310886159" expanded="true" signature="1184:1221" ph="Give a quick update here on what you've been working on today" />
-                <marker date="1531310886159" expanded="true" signature="1590:1624" ph="##tagsgohere" />
-                <marker date="1531310886159" expanded="true" signature="1879:1902" ph="Date:" />
-                <marker date="1531310886159" expanded="true" signature="2042:2067" ph="Post Update" />
+                <marker date="1531403150524" expanded="true" signature="272:298" ph="Simple Message Board Project" />
+                <marker date="1531403150524" expanded="true" signature="578:604" ph="Post a New Update" />
+                <marker date="1531403150524" expanded="true" signature="786:827" ph="Update Title" />
+                <marker date="1531403150524" expanded="true" signature="1184:1221" ph="Give a quick update here on what you've been working on today" />
+                <marker date="1531403150524" expanded="true" signature="1590:1624" ph="##tagsgohere" />
+                <marker date="1531403150524" expanded="true" signature="1879:1902" ph="Date:" />
+                <marker date="1531403150524" expanded="true" signature="2042:2067" ph="Post Update" />
               </folding>
             </state>
           </provider>
@@ -152,10 +154,10 @@
             <state relative-caret-position="189">
               <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
               <folding>
-                <marker date="1531310886162" expanded="true" signature="291:317" ph="Simple Message Board Project" />
-                <marker date="1531310886162" expanded="true" signature="577:598" ph="Search for Updates with Particular Tags" />
-                <marker date="1531310886162" expanded="true" signature="793:827" ph="##tagsgohere" />
-                <marker date="1531310886162" expanded="true" signature="903:923" ph="Find" />
+                <marker date="1531403150527" expanded="true" signature="291:317" ph="Simple Message Board Project" />
+                <marker date="1531403150527" expanded="true" signature="577:598" ph="Search for Updates with Particular Tags" />
+                <marker date="1531403150527" expanded="true" signature="793:827" ph="##tagsgohere" />
+                <marker date="1531403150527" expanded="true" signature="903:923" ph="Find" />
               </folding>
             </state>
           </provider>
@@ -164,8 +166,8 @@
       <file leaf-file-name="TagsController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ptconsultancy/tags/TagsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="588">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -427,7 +429,7 @@
         <entry key="C:/CustomerServiceGit/CustomerService" value="1492698139276" />
         <entry key="C:/CustomerServiceProject/CustomerService" value="1479914830528" />
         <entry key="C:/GitMigration/CustomerService" value="1492687326229" />
-        <entry key="$PROJECT_DIR$" value="4592088782895" />
+        <entry key="$PROJECT_DIR$" value="4594209450165" />
         <entry key="$PROJECT_DIR$/build.gradle" value="977751342" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="975608090" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3209415573" />
@@ -656,7 +658,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1315" />
     <option name="y" value="-1350" />
     <option name="width" value="2417" />
@@ -679,6 +681,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -758,8 +762,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -1057,6 +1059,7 @@
       <workItem from="1531147965712" duration="805000" />
       <workItem from="1531208353001" duration="12890000" />
       <workItem from="1531294554594" duration="2225000" />
+      <workItem from="1531403466712" duration="64000" />
     </task>
     <servers />
   </component>
@@ -1093,17 +1096,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95635000" />
+    <option name="totallyTimeSpent" value="95699000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1315" y="-1350" width="2417" height="1318" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1315" y="-1359" width="2418" height="1318" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1117,47 +1120,21 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27381462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2736977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39982653" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296328" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27082443" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1477,21 +1454,21 @@
         <state relative-caret-position="63">
           <caret line="3" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="10" />
           <folding>
-            <marker date="1531310886150" expanded="true" signature="288:314" ph="Simple Message Board Project" />
-            <marker date="1531310886150" expanded="true" signature="398:424" ph="Simple Message Board Project" />
-            <marker date="1531310886150" expanded="true" signature="617:639" ph="Home" />
-            <marker date="1531310886150" expanded="true" signature="695:723" ph="New Update" />
-            <marker date="1531310886150" expanded="true" signature="774:796" ph="Tags" />
-            <marker date="1531310886150" expanded="true" signature="852:879" ph="My Updates" />
-            <marker date="1531310886150" expanded="true" signature="931:954" ph="Admin" />
-            <marker date="1531310886150" expanded="true" signature="1117:1139" ph="Home" />
-            <marker date="1531310886150" expanded="true" signature="1195:1223" ph="New Update" />
-            <marker date="1531310886150" expanded="true" signature="1274:1296" ph="Tags" />
-            <marker date="1531310886150" expanded="true" signature="1352:1379" ph="My Updates" />
-            <marker date="1531310886150" expanded="true" signature="1785:1806" ph="All Current Posts" />
-            <marker date="1531310886150" expanded="true" signature="2813:2844" ph="Remove" />
-            <marker date="1531310886150" expanded="true" signature="3277:3299" ph="Logout" />
-            <marker date="1531310886150" expanded="true" signature="3552:3582" ph="Logout" />
+            <marker date="1531403150514" expanded="true" signature="288:314" ph="Simple Message Board Project" />
+            <marker date="1531403150514" expanded="true" signature="398:424" ph="Simple Message Board Project" />
+            <marker date="1531403150514" expanded="true" signature="617:639" ph="Home" />
+            <marker date="1531403150514" expanded="true" signature="695:723" ph="New Update" />
+            <marker date="1531403150514" expanded="true" signature="774:796" ph="Tags" />
+            <marker date="1531403150514" expanded="true" signature="852:879" ph="My Updates" />
+            <marker date="1531403150514" expanded="true" signature="931:954" ph="Admin" />
+            <marker date="1531403150514" expanded="true" signature="1117:1139" ph="Home" />
+            <marker date="1531403150514" expanded="true" signature="1195:1223" ph="New Update" />
+            <marker date="1531403150514" expanded="true" signature="1274:1296" ph="Tags" />
+            <marker date="1531403150514" expanded="true" signature="1352:1379" ph="My Updates" />
+            <marker date="1531403150514" expanded="true" signature="1785:1806" ph="All Current Posts" />
+            <marker date="1531403150514" expanded="true" signature="2813:2844" ph="Remove" />
+            <marker date="1531403150514" expanded="true" signature="3277:3299" ph="Logout" />
+            <marker date="1531403150514" expanded="true" signature="3552:3582" ph="Logout" />
           </folding>
         </state>
       </provider>
@@ -1501,10 +1478,10 @@
         <state relative-caret-position="105">
           <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding>
-            <marker date="1531310886156" expanded="true" signature="278:300" ph="Home" />
-            <marker date="1531310886156" expanded="true" signature="356:384" ph="New Update" />
-            <marker date="1531310886156" expanded="true" signature="435:457" ph="Tags" />
-            <marker date="1531310886156" expanded="true" signature="513:540" ph="My Updates" />
+            <marker date="1531403150521" expanded="true" signature="278:300" ph="Home" />
+            <marker date="1531403150521" expanded="true" signature="356:384" ph="New Update" />
+            <marker date="1531403150521" expanded="true" signature="435:457" ph="Tags" />
+            <marker date="1531403150521" expanded="true" signature="513:540" ph="My Updates" />
           </folding>
         </state>
       </provider>
@@ -1514,7 +1491,7 @@
         <state relative-caret-position="441">
           <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
-            <marker date="1531310886148" expanded="true" signature="273:299" ph="Simple Message Board Project" />
+            <marker date="1531403150512" expanded="true" signature="273:299" ph="Simple Message Board Project" />
           </folding>
         </state>
       </provider>
@@ -1524,8 +1501,8 @@
         <state relative-caret-position="189">
           <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="45" />
           <folding>
-            <marker date="1531310886154" expanded="true" signature="284:310" ph="Simple Message Board Project" />
-            <marker date="1531310886154" expanded="true" signature="483:509" ph="My Updates" />
+            <marker date="1531403150519" expanded="true" signature="284:310" ph="Simple Message Board Project" />
+            <marker date="1531403150519" expanded="true" signature="483:509" ph="My Updates" />
           </folding>
         </state>
       </provider>
@@ -1535,13 +1512,13 @@
         <state relative-caret-position="168">
           <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
           <folding>
-            <marker date="1531310886159" expanded="true" signature="272:298" ph="Simple Message Board Project" />
-            <marker date="1531310886159" expanded="true" signature="578:604" ph="Post a New Update" />
-            <marker date="1531310886159" expanded="true" signature="786:827" ph="Update Title" />
-            <marker date="1531310886159" expanded="true" signature="1184:1221" ph="Give a quick update here on what you've been working on today" />
-            <marker date="1531310886159" expanded="true" signature="1590:1624" ph="##tagsgohere" />
-            <marker date="1531310886159" expanded="true" signature="1879:1902" ph="Date:" />
-            <marker date="1531310886159" expanded="true" signature="2042:2067" ph="Post Update" />
+            <marker date="1531403150524" expanded="true" signature="272:298" ph="Simple Message Board Project" />
+            <marker date="1531403150524" expanded="true" signature="578:604" ph="Post a New Update" />
+            <marker date="1531403150524" expanded="true" signature="786:827" ph="Update Title" />
+            <marker date="1531403150524" expanded="true" signature="1184:1221" ph="Give a quick update here on what you've been working on today" />
+            <marker date="1531403150524" expanded="true" signature="1590:1624" ph="##tagsgohere" />
+            <marker date="1531403150524" expanded="true" signature="1879:1902" ph="Date:" />
+            <marker date="1531403150524" expanded="true" signature="2042:2067" ph="Post Update" />
           </folding>
         </state>
       </provider>
@@ -1551,12 +1528,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1531310886144" expanded="true" signature="199:225" ph="Simple Message Board Project" />
-            <marker date="1531310886144" expanded="true" signature="262:288" ph="Simple Message Board Project" />
-            <marker date="1531310886144" expanded="true" signature="336:358" ph="Home" />
-            <marker date="1531310886144" expanded="true" signature="414:442" ph="New Update" />
-            <marker date="1531310886144" expanded="true" signature="493:515" ph="Tags" />
-            <marker date="1531310886144" expanded="true" signature="571:598" ph="My Updates" />
+            <marker date="1531403150506" expanded="true" signature="199:225" ph="Simple Message Board Project" />
+            <marker date="1531403150506" expanded="true" signature="262:288" ph="Simple Message Board Project" />
+            <marker date="1531403150506" expanded="true" signature="336:358" ph="Home" />
+            <marker date="1531403150506" expanded="true" signature="414:442" ph="New Update" />
+            <marker date="1531403150506" expanded="true" signature="493:515" ph="Tags" />
+            <marker date="1531403150506" expanded="true" signature="571:598" ph="My Updates" />
           </folding>
         </state>
       </provider>
@@ -1566,13 +1543,13 @@
         <state relative-caret-position="42">
           <caret line="2" column="76" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="76" />
           <folding>
-            <marker date="1531310886141" expanded="true" signature="319:345" ph="Simple Message Board Project" />
-            <marker date="1531310886141" expanded="true" signature="431:457" ph="Simple Message Board Project" />
-            <marker date="1531310886141" expanded="true" signature="511:533" ph="Home" />
-            <marker date="1531310886141" expanded="true" signature="587:613" ph="Add New User" />
-            <marker date="1531310886141" expanded="true" signature="670:699" ph="Delete user" />
-            <marker date="1531310886141" expanded="true" signature="916:946" ph="New user successfully added" />
-            <marker date="1531310886141" expanded="true" signature="1139:1172" ph="User successfully deleted" />
+            <marker date="1531403150503" expanded="true" signature="319:345" ph="Simple Message Board Project" />
+            <marker date="1531403150503" expanded="true" signature="431:457" ph="Simple Message Board Project" />
+            <marker date="1531403150503" expanded="true" signature="511:533" ph="Home" />
+            <marker date="1531403150503" expanded="true" signature="587:613" ph="Add New User" />
+            <marker date="1531403150503" expanded="true" signature="670:699" ph="Delete user" />
+            <marker date="1531403150503" expanded="true" signature="916:946" ph="New user successfully added" />
+            <marker date="1531403150503" expanded="true" signature="1139:1172" ph="User successfully deleted" />
           </folding>
         </state>
       </provider>
@@ -1582,10 +1559,10 @@
         <state relative-caret-position="189">
           <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding>
-            <marker date="1531310886162" expanded="true" signature="291:317" ph="Simple Message Board Project" />
-            <marker date="1531310886162" expanded="true" signature="577:598" ph="Search for Updates with Particular Tags" />
-            <marker date="1531310886162" expanded="true" signature="793:827" ph="##tagsgohere" />
-            <marker date="1531310886162" expanded="true" signature="903:923" ph="Find" />
+            <marker date="1531403150527" expanded="true" signature="291:317" ph="Simple Message Board Project" />
+            <marker date="1531403150527" expanded="true" signature="577:598" ph="Search for Updates with Particular Tags" />
+            <marker date="1531403150527" expanded="true" signature="793:827" ph="##tagsgohere" />
+            <marker date="1531403150527" expanded="true" signature="903:923" ph="Find" />
           </folding>
         </state>
       </provider>
@@ -1600,30 +1577,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/adduser.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="294">
           <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
-            <marker date="1531310886138" expanded="true" signature="319:345" ph="Simple Message Board Project" />
-            <marker date="1531310886138" expanded="true" signature="437:463" ph="Simple Message Board Project" />
-            <marker date="1531310886138" expanded="true" signature="521:543" ph="Home" />
-            <marker date="1531310886138" expanded="true" signature="597:623" ph="Add New User" />
-            <marker date="1531310886138" expanded="true" signature="680:709" ph="Delete user" />
-            <marker date="1531310886138" expanded="true" signature="954:984" ph="Search for Updates with Particular Tags" />
-            <marker date="1531310886138" expanded="true" signature="1115:1146" ph="Username:" />
-            <marker date="1531310886138" expanded="true" signature="1587:1628" ph="This username is already in use, please select an alternative" />
-            <marker date="1531310886138" expanded="true" signature="1806:1837" ph="Username:" />
-            <marker date="1531310886138" expanded="true" signature="2306:2333" ph="User Role:" />
-            <marker date="1531310886138" expanded="true" signature="2962:2994" ph="User's first name:" />
-            <marker date="1531310886138" expanded="true" signature="3465:3496" ph="User's surname:" />
-            <marker date="1531310886138" expanded="true" signature="3958:3987" ph="Add User" />
+            <marker date="1531403150500" expanded="true" signature="319:345" ph="Simple Message Board Project" />
+            <marker date="1531403150500" expanded="true" signature="437:463" ph="Simple Message Board Project" />
+            <marker date="1531403150500" expanded="true" signature="521:543" ph="Home" />
+            <marker date="1531403150500" expanded="true" signature="597:623" ph="Add New User" />
+            <marker date="1531403150500" expanded="true" signature="680:709" ph="Delete user" />
+            <marker date="1531403150500" expanded="true" signature="954:984" ph="Search for Updates with Particular Tags" />
+            <marker date="1531403150500" expanded="true" signature="1115:1146" ph="Username:" />
+            <marker date="1531403150500" expanded="true" signature="1587:1628" ph="This username is already in use, please select an alternative" />
+            <marker date="1531403150500" expanded="true" signature="1806:1837" ph="Username:" />
+            <marker date="1531403150500" expanded="true" signature="2306:2333" ph="User Role:" />
+            <marker date="1531403150500" expanded="true" signature="2962:2994" ph="User's first name:" />
+            <marker date="1531403150500" expanded="true" signature="3465:3496" ph="User's surname:" />
+            <marker date="1531403150500" expanded="true" signature="3958:3987" ph="Add User" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ptconsultancy/tags/TagsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="588">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>

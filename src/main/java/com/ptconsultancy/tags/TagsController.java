@@ -45,7 +45,7 @@ public class TagsController {
         model.addAttribute("updates", updateEntitySort.sortByDate(updateEntityRepository.findByTags(tagsSearchForm.getTags())));
 
 
-        // Careful not to return /tags as this will cause the JAR version to fail!!
+        // Careful not to return /tags (or similar on any other controller) as this will cause the JAR version to fail!!
         return "tags";
     }
 }

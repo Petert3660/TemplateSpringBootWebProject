@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="security.TestCurrentUserDetailsService" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-07-12T13:48:41" hostname="uK-LT-6343" time="0.146">
+<testsuite name="security.TestCurrentUserDetailsService" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-07-12T14:07:40" hostname="uK-LT-6343" time="0.153">
   <properties/>
-  <testcase name="test_loadUerByName" classname="security.TestCurrentUserDetailsService" time="0.145"/>
+  <testcase name="test_loadUerByName" classname="security.TestCurrentUserDetailsService" time="0.152"/>
   <testcase name="test_loadUerByName_multiple_users" classname="security.TestCurrentUserDetailsService" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

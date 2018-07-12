@@ -1,3 +1,27 @@
 # IntelliJ Files
 .idea\vcs.xml
 .idea\workspace.xml
+
+# Gradle Files
+.gradle\4.0\fileContent\fileContent.lock
+.gradle\4.0\fileHashes\fileHashes.bin
+.gradle\4.0\fileHashes\fileHashes.lock
+.gradle\4.0\taskHistory\fileSnapshots.bin
+.gradle\4.0\taskHistory\taskHistory.bin
+.gradle\4.0\taskHistory\taskHistory.lock
+
+# Build Files
+build\libs\run.bat
+build\libs\TemplateSpringBootWebProject.jar
+build\reports\tests\test\classes\security.TestCurrentUserDetailsService.html
+build\reports\tests\test\classes\utilities.TestUpdateEntitySort.html
+build\reports\tests\test\classes\utilities.TestUserDetailUtils.html
+build\reports\tests\test\classes\utilities.TestUserDetailUtilsSort.html
+build\reports\tests\test\index.html
+build\reports\tests\test\packages\security.html
+build\reports\tests\test\packages\utilities.html
+build\test-results\test\binary\results.bin
+build\test-results\test\TEST-security.TestCurrentUserDetailsService.xml
+build\test-results\test\TEST-utilities.TestUpdateEntitySort.xml
+build\test-results\test\TEST-utilities.TestUserDetailUtils.xml
+build\test-results\test\TEST-utilities.TestUserDetailUtilsSort.xml

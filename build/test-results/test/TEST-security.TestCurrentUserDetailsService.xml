@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="security.TestCurrentUserDetailsService" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-07-12T14:38:37" hostname="uK-LT-6343" time="0.155">
-  <properties/>
-  <testcase name="test_loadUerByName" classname="security.TestCurrentUserDetailsService" time="0.154"/>
-  <testcase name="test_loadUerByName_multiple_users" classname="security.TestCurrentUserDetailsService" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

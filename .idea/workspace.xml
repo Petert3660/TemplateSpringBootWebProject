@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e9731f4-32a8-481b-bff3-02265d34ac25" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/build/libs/TemplateSpringBootWebProject.jar" afterPath="$PROJECT_DIR$/build/libs/TemplateSpringBootWebProject.jar" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/security.TestCurrentUserDetailsService.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/security.TestCurrentUserDetailsService.html" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/utilities.TestUpdateEntitySort.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/utilities.TestUpdateEntitySort.html" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/utilities.TestUserDetailUtils.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/utilities.TestUserDetailUtils.html" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/utilities.TestUserDetailUtilsSort.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/utilities.TestUserDetailUtilsSort.html" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/security.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/security.html" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/utilities.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/utilities.html" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-security.TestCurrentUserDetailsService.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-security.TestCurrentUserDetailsService.xml" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-utilities.TestUpdateEntitySort.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-utilities.TestUpdateEntitySort.xml" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-utilities.TestUserDetailUtils.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-utilities.TestUserDetailUtils.xml" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-utilities.TestUserDetailUtilsSort.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-utilities.TestUserDetailUtilsSort.xml" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptconsultancy/tags/TagsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ptconsultancy/tags/TagsController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -46,20 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="adduser.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/adduser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="21">
               <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
                 <marker date="1531310886138" expanded="true" signature="319:345" ph="Simple Message Board Project" />
@@ -188,11 +161,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TagsController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TagsController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ptconsultancy/tags/TagsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="586">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -716,24 +689,6 @@
             <path>
               <item name="TemplateSpringBootWebProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="TemplateSpringBootWebProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TemplateSpringBootWebProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TemplateSpringBootWebProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="4.0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TemplateSpringBootWebProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TemplateSpringBootWebProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="4.0" type="462c0819:PsiDirectoryNode" />
-              <item name="fileHashes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TemplateSpringBootWebProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TemplateSpringBootWebProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1138,10 +1093,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94975000" />
+    <option name="totallyTimeSpent" value="95635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1315" y="-1350" width="2417" height="1318" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1161,7 +1117,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27381462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1621,9 +1577,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <marker date="1531310886162" expanded="true" signature="291:317" ph="Simple Message Board Project" />
+            <marker date="1531310886162" expanded="true" signature="577:598" ph="Search for Updates with Particular Tags" />
+            <marker date="1531310886162" expanded="true" signature="793:827" ph="##tagsgohere" />
+            <marker date="1531310886162" expanded="true" signature="903:923" ph="Find" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/adduser.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="21">
           <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
             <marker date="1531310886138" expanded="true" signature="319:345" ph="Simple Message Board Project" />
@@ -1643,31 +1620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tags.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding>
-            <marker date="1531310886162" expanded="true" signature="291:317" ph="Simple Message Board Project" />
-            <marker date="1531310886162" expanded="true" signature="577:598" ph="Search for Updates with Particular Tags" />
-            <marker date="1531310886162" expanded="true" signature="793:827" ph="##tagsgohere" />
-            <marker date="1531310886162" expanded="true" signature="903:923" ph="Find" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ptconsultancy/tags/TagsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="586">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>

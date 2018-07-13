@@ -105,25 +105,27 @@ public class Application implements CommandLineRunner {
 
     private void populateDatabase() {
 
-        // Create some users
-        String prop;
-        int i = 1;
-        do {
-            String user = "user" + String.valueOf(i++);
-            prop = env.getProperty(user);
-            if (!StringUtils.isEmpty(prop)) {
-                String[] userDetails = prop.split(", ");
-                if (userDetails[2].equals("admin")) {
-                    userRepository.save(new User(userDetails[0], userDetails[1], Role.ADMIN, userDetails[3], userDetails[4]));
-                } else if (userDetails[2].equals("user")) {
-                    userRepository.save(new User(userDetails[0], userDetails[1], Role.USER, userDetails[3], userDetails[4]));
+        if (userRepository.findByUserName("superuser").size() == 0) { // Using H2 in-memory DB
+            // Create some users
+            String prop;
+            int i = 1;
+            do {
+                String user = "user" + String.valueOf(i++);
+                prop = env.getProperty(user);
+                if (!StringUtils.isEmpty(prop)) {
+                    String[] userDetails = prop.split(", ");
+                    if (userDetails[2].equals("admin")) {
+                        userRepository.save(new User(userDetails[0], userDetails[1], Role.ADMIN, userDetails[3], userDetails[4]));
+                    } else if (userDetails[2].equals("user")) {
+                        userRepository.save(new User(userDetails[0], userDetails[1], Role.USER, userDetails[3], userDetails[4]));
+                    }
+
                 }
+            } while (!StringUtils.isEmpty(prop));
 
-            }
-        } while (!StringUtils.isEmpty(prop));
-
-        //Create and publish an initial post
-        UpdateEntity firstPost = new UpdateEntity("#admin", "Welcome", "superuser", "Welcome to this message board that allows users to update details of their most recent activity!", LocalDateTime.now());
-        updateEntityRepository.save(firstPost);
+            //Create and publish an initial post
+            UpdateEntity firstPost = new UpdateEntity("#admin", "Welcome", "superuser", "Welcome to this message board that allows users to update details of their most recent activity!", LocalDateTime.now());
+            updateEntityRepository.save(firstPost);
+        }
     }
 }

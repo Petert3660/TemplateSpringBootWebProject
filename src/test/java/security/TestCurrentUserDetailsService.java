@@ -40,10 +40,10 @@ public class TestCurrentUserDetailsService {
 
         unsortedTestList = new ArrayList();
 
-        User testUser = new User(TEST_USERNAME_1, TEST_PASS_HASH_1, TEST_ROLE_1, TEST_FIRSTNAME_1, TEST_LASTTNAME_1);
+        User testUser = new User(TEST_USERNAME_1, TEST_PASS_HASH_1, TEST_ROLE_1, TEST_FIRSTNAME_1, TEST_LASTTNAME_1, false);
         unsortedTestList.add(testUser);
         if (mode > 0) {
-            testUser = new User(TEST_USERNAME_2, TEST_PASS_HASH_2, TEST_ROLE_2, TEST_FIRSTNAME_2, TEST_LASTTNAME_2);
+            testUser = new User(TEST_USERNAME_2, TEST_PASS_HASH_2, TEST_ROLE_2, TEST_FIRSTNAME_2, TEST_LASTTNAME_2, false);
             unsortedTestList.add(testUser);
         }
     }

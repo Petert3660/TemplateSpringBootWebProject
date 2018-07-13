@@ -25,6 +25,8 @@ public class QUser extends EntityPathBase<User> {
 
     public final StringPath lastname = createString("lastname");
 
+    public final BooleanPath loggedIn = createBoolean("loggedIn");
+
     public final StringPath passwordHash = createString("passwordHash");
 
     public final EnumPath<Role> role = createEnum("role", Role.class);

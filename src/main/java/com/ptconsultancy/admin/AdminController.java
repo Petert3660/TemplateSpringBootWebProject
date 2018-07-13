@@ -55,7 +55,7 @@ public class AdminController {
             return "adduser";
         }
 
-        userRepository.save(new User(addUserForm.getUsername(), new BCryptPasswordEncoder().encode(addUserForm.getPassword()), addUserForm.getRole(), addUserForm.getFirstname(), addUserForm.getLastname()));
+        userRepository.save(new User(addUserForm.getUsername(), new BCryptPasswordEncoder().encode(addUserForm.getPassword()), addUserForm.getRole(), addUserForm.getFirstname(), addUserForm.getLastname(), false));
 
         model.addAttribute("addSuccess", true);
 

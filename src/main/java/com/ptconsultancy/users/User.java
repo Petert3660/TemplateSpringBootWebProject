@@ -22,15 +22,16 @@ public class User {
     private Role role;
     private String firstname;
     private String lastname;
+    private boolean loggedIn;
 
-    public User(String userName, String passwordHash, Role role) {
+    public User(String userName, String passwordHash, Role role, boolean loggedIn) {
         this.userName = userName;
         this.passwordHash = passwordHash;
         this.role = role;
     }
 
-    public User(String userName, String passwordHash, Role role, String firstname, String lastname) {
-       this(userName, passwordHash, role);
+    public User(String userName, String passwordHash, Role role, String firstname, String lastname, boolean loggedIn) {
+       this(userName, passwordHash, role, loggedIn);
        this.firstname = firstname;
        this.lastname = lastname;
     }
@@ -80,5 +81,13 @@ public class User {
 
     public void setLastname(String lastname) {
         this.lastname = lastname;
+    }
+
+    public boolean isLoggedIn() {
+        return loggedIn;
+    }
+
+    public void setLoggedIn(boolean loggedIn) {
+        this.loggedIn = loggedIn;
     }
 }

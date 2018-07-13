@@ -69,7 +69,7 @@ public class TestUserDetailUtils {
     @Test
     public void test_getUserFullname_for_ordinary_user() {
 
-        User testUser = new User(TEST_USERNAME_1, TEST_PASS_HASH_1, TEST_ROLE_1, TEST_FIRSTNAME_1, TEST_LASTTNAME_1);
+        User testUser = new User(TEST_USERNAME_1, TEST_PASS_HASH_1, TEST_ROLE_1, TEST_FIRSTNAME_1, TEST_LASTTNAME_1, false);
         unsortedTestList.add(testUser);
 
         PowerMockito.when(authentication.getName()).thenReturn(TEST_USERNAME_1);
@@ -84,7 +84,7 @@ public class TestUserDetailUtils {
     @Test
     public void test_getUserFullname_for_superuser() {
 
-        User testUser = new User(SUPERUSER_USERNAME, TEST_PASS_HASH_1, TEST_ROLE_1, TEST_FIRSTNAME_1, TEST_LASTTNAME_1);
+        User testUser = new User(SUPERUSER_USERNAME, TEST_PASS_HASH_1, TEST_ROLE_1, TEST_FIRSTNAME_1, TEST_LASTTNAME_1, false);
         unsortedTestList.add(testUser);
 
         PowerMockito.when(authentication.getName()).thenReturn(SUPERUSER_USERNAME);
@@ -98,9 +98,9 @@ public class TestUserDetailUtils {
     @Test
     public void test_getUserFullname_more_than_one_user_in_list() {
 
-        User testUser = new User(TEST_USERNAME_1, TEST_PASS_HASH_1, TEST_ROLE_1, TEST_FIRSTNAME_1, TEST_LASTTNAME_1);
+        User testUser = new User(TEST_USERNAME_1, TEST_PASS_HASH_1, TEST_ROLE_1, TEST_FIRSTNAME_1, TEST_LASTTNAME_1, false);
         unsortedTestList.add(testUser);
-        testUser = new User(TEST_USERNAME_2, TEST_PASS_HASH_2, TEST_ROLE_2, TEST_FIRSTNAME_2, TEST_LASTTNAME_2);
+        testUser = new User(TEST_USERNAME_2, TEST_PASS_HASH_2, TEST_ROLE_2, TEST_FIRSTNAME_2, TEST_LASTTNAME_2, false);
         unsortedTestList.add(testUser);
 
         PowerMockito.when(authentication.getName()).thenReturn(TEST_USERNAME_1);
@@ -119,7 +119,7 @@ public class TestUserDetailUtils {
     @Test
     public void test_isAdminUser_false() {
 
-        User testUser = new User(TEST_USERNAME_1, TEST_PASS_HASH_1, TEST_ROLE_1, TEST_FIRSTNAME_1, TEST_LASTTNAME_1);
+        User testUser = new User(TEST_USERNAME_1, TEST_PASS_HASH_1, TEST_ROLE_1, TEST_FIRSTNAME_1, TEST_LASTTNAME_1, false);
         unsortedTestList.add(testUser);
 
         PowerMockito.when(authentication.getName()).thenReturn(TEST_USERNAME_1);
@@ -133,7 +133,7 @@ public class TestUserDetailUtils {
     @Test
     public void test_isAdminUser_true() {
 
-        User testUser = new User(TEST_USERNAME_2, TEST_PASS_HASH_2, TEST_ROLE_2, TEST_FIRSTNAME_2, TEST_LASTTNAME_2);
+        User testUser = new User(TEST_USERNAME_2, TEST_PASS_HASH_2, TEST_ROLE_2, TEST_FIRSTNAME_2, TEST_LASTTNAME_2, false);
         unsortedTestList.add(testUser);
 
         PowerMockito.when(authentication.getName()).thenReturn(TEST_USERNAME_1);
@@ -147,9 +147,9 @@ public class TestUserDetailUtils {
     @Test
     public void test_isAdminUser_more_than_one_user_in_list() {
 
-        User testUser = new User(TEST_USERNAME_1, TEST_PASS_HASH_1, TEST_ROLE_1, TEST_FIRSTNAME_1, TEST_LASTTNAME_1);
+        User testUser = new User(TEST_USERNAME_1, TEST_PASS_HASH_1, TEST_ROLE_1, TEST_FIRSTNAME_1, TEST_LASTTNAME_1, false);
         unsortedTestList.add(testUser);
-        testUser = new User(TEST_USERNAME_2, TEST_PASS_HASH_2, TEST_ROLE_2, TEST_FIRSTNAME_2, TEST_LASTTNAME_2);
+        testUser = new User(TEST_USERNAME_2, TEST_PASS_HASH_2, TEST_ROLE_2, TEST_FIRSTNAME_2, TEST_LASTTNAME_2, false);
         unsortedTestList.add(testUser);
 
         PowerMockito.when(authentication.getName()).thenReturn(TEST_USERNAME_1);

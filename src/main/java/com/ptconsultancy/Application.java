@@ -115,9 +115,9 @@ public class Application implements CommandLineRunner {
                 if (!StringUtils.isEmpty(prop)) {
                     String[] userDetails = prop.split(", ");
                     if (userDetails[2].equals("admin")) {
-                        userRepository.save(new User(userDetails[0], userDetails[1], Role.ADMIN, userDetails[3], userDetails[4]));
+                        userRepository.save(new User(userDetails[0], userDetails[1], Role.ADMIN, userDetails[3], userDetails[4], true));
                     } else if (userDetails[2].equals("user")) {
-                        userRepository.save(new User(userDetails[0], userDetails[1], Role.USER, userDetails[3], userDetails[4]));
+                        userRepository.save(new User(userDetails[0], userDetails[1], Role.USER, userDetails[3], userDetails[4], false));
                     }
 
                 }

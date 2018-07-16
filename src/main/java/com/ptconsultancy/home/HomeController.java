@@ -32,6 +32,7 @@ public class HomeController {
 
         if (!userRepository.findByUserName(userDetailUtils.getUserName()).get(0).isLoggedIn()) {
             System.out.println("This user has never logged in - needs to change password");
+            return "redirect:changepassword";
         }
 
         model.addAttribute("userIsAdmin", userDetailUtils.isAdminUser());

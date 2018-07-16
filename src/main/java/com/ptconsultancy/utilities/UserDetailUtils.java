@@ -51,6 +51,13 @@ public class UserDetailUtils {
         throw new UsernameNotFoundException(username);
     }
 
+    public String getPasswordHash() {
+
+        init();
+
+        return userRepository.findByUserName(username).get(0).getPasswordHash();
+    }
+
     public boolean isAdminUser() throws UsernameNotFoundException {
 
         init();

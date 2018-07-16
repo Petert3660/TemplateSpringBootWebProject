@@ -2,6 +2,7 @@ package com.ptconsultancy.home;
 
 import com.ptconsultancy.entities.UpdateEntity;
 import com.ptconsultancy.repositories.UpdateEntityRepository;
+import com.ptconsultancy.users.UserRepository;
 import com.ptconsultancy.utilities.UpdateEntitySort;
 import com.ptconsultancy.utilities.UserDetailUtils;
 import java.util.List;
@@ -18,6 +19,9 @@ public class HomeController {
     private UpdateEntityRepository updateEntityRepository;
 
     @Autowired
+    private UserRepository userRepository;
+
+    @Autowired
     private UpdateEntitySort updateEntitySort;
 
     @Autowired
@@ -25,6 +29,10 @@ public class HomeController {
 
     @GetMapping(value = "/home")
     public String tags(Model model) {
+
+        if (!userRepository.findByUserName(userDetailUtils.getUserName()).get(0).isLoggedIn()) {
+            return "redirect:changepassword";
+        }
 
         model.addAttribute("userIsAdmin", userDetailUtils.isAdminUser());
         model.addAttribute("userName", userDetailUtils.getUserName());

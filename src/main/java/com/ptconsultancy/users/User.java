@@ -34,6 +34,7 @@ public class User {
        this(userName, passwordHash, role, loggedIn);
        this.firstname = firstname;
        this.lastname = lastname;
+       this.loggedIn = loggedIn;
     }
 
     public User() {

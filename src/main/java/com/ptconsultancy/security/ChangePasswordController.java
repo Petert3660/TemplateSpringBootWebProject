@@ -44,14 +44,22 @@ public class ChangePasswordController {
             return "changepassword";
         }
 
-        if (changePasswordForm.getNewPassword().equals(changePasswordForm.getRetypeNewPassword())) {
-            User user = userRepository.findByUserName(userDetailUtils.getUserName()).get(0);
-            user.setLoggedIn(true);
-            user.setPasswordHash(passwordEncoder.encode(changePasswordForm.getNewPassword()));
-            userRepository.save(user);
+        String passwordHash = userRepository.findByUserName(userDetailUtils.getUserName()).get(0).getPasswordHash();
+
+        if (passwordEncoder.matches(changePasswordForm.getOldPassword(), passwordHash)) {
+            if (changePasswordForm.getNewPassword().equals(changePasswordForm.getRetypeNewPassword())) {
+                User user = userRepository.findByUserName(userDetailUtils.getUserName()).get(0);
+                user.setLoggedIn(true);
+                user.setPasswordHash(passwordEncoder.encode(changePasswordForm.getNewPassword()));
+                userRepository.save(user);
+            } else {
+                model.addAttribute("errorFlag", true);
+                model.addAttribute("newPassError", env.getProperty("changepass.newpass.errormessage"));
+                return "changepassword";
+            }
         } else {
             model.addAttribute("errorFlag", true);
-            model.addAttribute("newPassError", env.getProperty("changepass.errormessage"));
+            model.addAttribute("newPassError", env.getProperty("changepass.oldpass.errormessage"));
             return "changepassword";
         }
 

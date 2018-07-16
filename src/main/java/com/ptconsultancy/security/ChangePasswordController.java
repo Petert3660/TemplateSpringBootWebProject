@@ -5,6 +5,7 @@ import com.ptconsultancy.users.UserRepository;
 import com.ptconsultancy.utilities.UserDetailUtils;
 import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,6 +15,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class ChangePasswordController {
+
+    @Autowired
+    private Environment env;
 
     @Autowired
     private UserRepository userRepository;
@@ -47,7 +51,7 @@ public class ChangePasswordController {
             userRepository.save(user);
         } else {
             model.addAttribute("errorFlag", true);
-            model.addAttribute("newPassError", "The retyped new pass word does not match the new password - please try again!");
+            model.addAttribute("newPassError", env.getProperty("changepass.errormessage"));
             return "changepassword";
         }
 

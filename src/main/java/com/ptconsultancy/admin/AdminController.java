@@ -34,6 +34,8 @@ public class AdminController {
     @GetMapping(value = "/admin")
     public String tags(Model model) {
 
+        model.addAttribute("userName", userDetailUtils.getUserName());
+
         return "admin";
     }
 
@@ -41,6 +43,8 @@ public class AdminController {
     public String addUser(AddUserForm addUserForm, Model model) {
 
         createAndAddRoles(model);
+
+        model.addAttribute("userName", userDetailUtils.getUserName());
 
         return "adduser";
     }
@@ -72,6 +76,8 @@ public class AdminController {
     public String deleteUser(DeleteUserForm deleteUserForm, Model model) {
 
         createAndAddUsernames(model);
+
+        model.addAttribute("userName", userDetailUtils.getUserName());
 
         return "deleteuser";
     }

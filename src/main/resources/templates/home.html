@@ -33,19 +33,6 @@
                 </div>
                 <tr><td><hr/></td></tr>
             </table>
-
-
-            <table>
-                <tr><td>&nbsp;</td></tr>
-                <tr>
-                    <form th:action="@{/home}" method="post">
-                        <td th:if="${userIsAdmin}">
-                            <input type="submit" value="" th:attr="value=#{messages.admin.shutdown.submit}"/>
-                        </td>
-                    </form>
-                </tr>
-            </table>
-
         </div>
     </body>
 </html>

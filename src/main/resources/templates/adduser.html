@@ -8,11 +8,7 @@
     </head>
     <body>
         <div class="margin">
-            <h3 th:text="#{messages.application.title}"/>
-
-            <a th:href="@{/home}"><label th:text="#{messages.home.homelink}"/></a> | <a th:href="@{/adduser}"><label th:text="#{messages.admin.adduserlink}"/></a> | <a th:href="@{/deleteuser}"><label th:text="#{messages.admin.removeuserlink}"/></a>
-
-            <hr/>
+          <div th:replace="adminheader :: adminheader"></div>
         </div>
 
         <form class="margin" th:action="@{/adduser/save}" th:object="${addUserForm}" method="post">

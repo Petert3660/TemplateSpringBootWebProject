@@ -15,17 +15,22 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class HomeController {
 
-    @Autowired
     private UpdateEntityRepository updateEntityRepository;
 
-    @Autowired
     private UserRepository userRepository;
 
-    @Autowired
     private UpdateEntitySort updateEntitySort;
 
-    @Autowired
     private UserDetailUtils userDetailUtils;
+
+    @Autowired
+    public HomeController(UpdateEntityRepository updateEntityRepository, UserRepository userRepository, UpdateEntitySort updateEntitySort,
+        UserDetailUtils userDetailUtils) {
+        this.updateEntityRepository = updateEntityRepository;
+        this.userRepository = userRepository;
+        this.updateEntitySort = updateEntitySort;
+        this. userDetailUtils = userDetailUtils;
+    }
 
     @GetMapping(value = "/home")
     public String tags(Model model) {

@@ -16,17 +16,21 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class ChangePasswordController {
 
-    @Autowired
     private Environment env;
 
-    @Autowired
     private UserRepository userRepository;
 
-    @Autowired
     private PasswordEncoder passwordEncoder;
 
-    @Autowired
     UserDetailUtils userDetailUtils;
+
+    @Autowired
+    public void ChangePasswordController(Environment env, UserRepository userRepository, PasswordEncoder passwordEncoder, UserDetailUtils userDetailUtils) {
+        this.env = env;
+        this.userRepository = userRepository;
+        this.passwordEncoder = passwordEncoder;
+        this.userDetailUtils = userDetailUtils;
+    }
 
     @GetMapping(value = "/changepassword")
     public String changePass(ChangePasswordForm changePasswordForm, Model model) {

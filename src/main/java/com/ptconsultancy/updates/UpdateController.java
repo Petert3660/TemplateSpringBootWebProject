@@ -15,11 +15,15 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class UpdateController {
 
-    @Autowired
     private UpdateEntityRepository updateEntityRepository;
 
-    @Autowired
     private UserDetailUtils userDetailUtils;
+
+    @Autowired
+    public UpdateController(UpdateEntityRepository updateEntityRepository, UserDetailUtils userDetailUtils) {
+        this.updateEntityRepository = updateEntityRepository;
+        this.userDetailUtils = userDetailUtils;
+    }
 
     @GetMapping(value = "/newupdate")
     public String newupdate(NewUpdateForm newUpdateForm, Model model) {

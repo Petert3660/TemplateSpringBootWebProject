@@ -16,14 +16,18 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class TagsController {
 
-    @Autowired
     UpdateEntityRepository updateEntityRepository;
 
-    @Autowired
     private UpdateEntitySort updateEntitySort;
 
-    @Autowired
     private UserDetailUtils userDetailUtils;
+
+    @Autowired
+    public TagsController(UpdateEntityRepository updateEntityRepository, UpdateEntitySort updateEntitySort, UserDetailUtils userDetailUtils) {
+        this.updateEntityRepository = updateEntityRepository;
+        this.updateEntitySort = updateEntitySort;
+        this.userDetailUtils = userDetailUtils;
+    }
 
     @GetMapping(value = "/tags")
     public String tags(TagsSearchForm tagsSearchForm, Model model) {

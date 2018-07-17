@@ -14,14 +14,18 @@ import org.thymeleaf.util.StringUtils;
 @Controller
 public class MyUpdatesController {
 
-    @Autowired
     private UpdateEntityRepository updateEntityRepository;
 
-    @Autowired
     private UpdateEntitySort updateEntitySort;
 
-    @Autowired
     private UserDetailUtils userDetailUtils;
+
+    @Autowired
+    public MyUpdatesController(UpdateEntityRepository updateEntityRepository, UpdateEntitySort updateEntitySort, UserDetailUtils userDetailUtils) {
+        this.updateEntityRepository = updateEntityRepository;
+        this.updateEntitySort = updateEntitySort;
+        this.userDetailUtils = userDetailUtils;
+    }
 
     @GetMapping(value = "/myupdates")
     public String myupdates(Model model) {

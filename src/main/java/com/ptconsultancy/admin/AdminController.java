@@ -19,11 +19,17 @@ import org.thymeleaf.util.StringUtils;
 @Controller
 public class AdminController {
 
-    @Autowired
+
     UserRepository userRepository;
 
-    @Autowired
+
     UserDetailUtils userDetailUtils;
+
+    @Autowired
+    public AdminController(UserRepository userRepository, UserDetailUtils userDetailUtils) {
+        this.userRepository = userRepository;
+        this.userDetailUtils = userDetailUtils;
+    }
 
     @GetMapping(value = "/admin")
     public String tags(Model model) {

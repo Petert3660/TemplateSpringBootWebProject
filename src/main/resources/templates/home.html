@@ -7,26 +7,7 @@
     </head>
     <body>
         <div class="margin">
-            <h3 th:text="#{messages.application.title}"/>
-
-            <table>
-                <tr>
-                    <td>
-                        <div th:if="${userIsAdmin}">
-                            <a th:href="@{/home}"><label th:text="#{messages.home.homelink}"/></a> | <a th:href="@{/newupdate}"><label th:text="#{messages.home.homeupdatelink}"/></a> | <a th:href="@{/tags}"><label th:text="#{messages.home.tagslink}"/></a> | <a th:href="@{/myupdates}"><label th:text="#{messages.home.myupdateslink}"/></a> | <a th:href="@{/admin}"><label th:text="#{messages.home.adminlink}"/></a>
-                        </div>
-
-                        <div th:if="${!userIsAdmin}">
-                            <a th:href="@{/home}"><label th:text="#{messages.home.homelink}"/></a> | <a th:href="@{/newupdate}"><label th:text="#{messages.home.homeupdatelink}"/></a> | <a th:href="@{/tags}"><label th:text="#{messages.home.tagslink}"/></a> | <a th:href="@{/myupdates}"><label th:text="#{messages.home.myupdateslink}"/></a>
-                        </div>
-                    </td>
-                    <td>
-                        <div>&nbsp;&nbsp;&nbsp;<small>(Logged in as: <label th:text="${userName}"/>)</small></div>
-                    </td>
-                </tr>
-            </table>
-
-            <hr/>
+            <div th:replace="header :: header"></div>
 
             <table>
                 <tr><td>&nbsp;</td></tr>
@@ -57,12 +38,6 @@
             <table>
                 <tr><td>&nbsp;</td></tr>
                 <tr>
-                    <form th:action="@{/logout}" method="post">
-                        <td>
-                            <input type="submit" value="" th:attr="value=#{messages.logout.submit}"/>
-                        </td>
-                    </form>
-
                     <form th:action="@{/home}" method="post">
                         <td th:if="${userIsAdmin}">
                             <input type="submit" value="" th:attr="value=#{messages.admin.shutdown.submit}"/>

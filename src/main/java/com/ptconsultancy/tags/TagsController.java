@@ -32,6 +32,7 @@ public class TagsController {
     @GetMapping(value = "/tags")
     public String tags(TagsSearchForm tagsSearchForm, Model model) {
 
+        model.addAttribute("userIsAdmin", userDetailUtils.isAdminUser());
         model.addAttribute("userName", userDetailUtils.getUserName());
         model.addAttribute("updates", new ArrayList<UpdateEntity>());
 
@@ -45,6 +46,7 @@ public class TagsController {
             return "tags";
         }
 
+        model.addAttribute("userIsAdmin", userDetailUtils.isAdminUser());
         model.addAttribute("userName", userDetailUtils.getUserName());
         model.addAttribute("updates", updateEntitySort.sortByDate(updateEntityRepository.findByTags(tagsSearchForm.getTags())));
 

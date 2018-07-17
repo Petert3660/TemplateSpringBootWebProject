@@ -31,6 +31,7 @@ public class UpdateController {
         // Note: have to pass the form to here otherwise ThymeLeaf can't see the getters and setters for it!
         // This causes the th:field and th:errors calls to fail.
 
+        model.addAttribute("userIsAdmin", userDetailUtils.isAdminUser());
         model.addAttribute("userName", userDetailUtils.getUserName());
 
         return "newupdate";

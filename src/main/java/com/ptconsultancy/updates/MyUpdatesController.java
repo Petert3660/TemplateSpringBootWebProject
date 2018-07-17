@@ -30,6 +30,7 @@ public class MyUpdatesController {
     @GetMapping(value = "/myupdates")
     public String myupdates(Model model) {
 
+        model.addAttribute("userIsAdmin", userDetailUtils.isAdminUser());
         model.addAttribute("userName", userDetailUtils.getUserName());
         model.addAttribute("updates", updateEntitySort.sortByDate(updateEntityRepository.findByUsername(userDetailUtils.getUserFullname())));
 

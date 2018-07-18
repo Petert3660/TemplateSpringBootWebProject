@@ -1,6 +1,9 @@
 package com.ptconsultancy.utilities;
 
 import com.ptconsultancy.entities.UpdateEntity;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import org.springframework.stereotype.Component;
@@ -33,5 +36,35 @@ public class UpdateEntitySort {
         });
 
         return unsortedList;
+    }
+
+    public List<UpdateEntity> getTodaysList(List<UpdateEntity> sortedEntities) {
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        String date = LocalDateTime.now().format(formatter);
+        List<UpdateEntity> result = new ArrayList<UpdateEntity>();
+
+        for (UpdateEntity entity : sortedEntities) {
+            if (entity.getCreatedAtAsString().equals(date)) {
+                result.add(entity);
+            }
+        }
+
+        return result;
+    }
+
+    public List<UpdateEntity> getOlderList(List<UpdateEntity> sortedEntities) {
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        String date = LocalDateTime.now().format(formatter);
+        List<UpdateEntity> result = new ArrayList<UpdateEntity>();
+
+        for (UpdateEntity entity : sortedEntities) {
+            if (!entity.getCreatedAtAsString().equals(date)) {
+                result.add(entity);
+            }
+        }
+
+        return result;
     }
 }

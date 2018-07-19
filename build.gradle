@@ -82,15 +82,18 @@ sourceSets {
     }
 }
 
-task setBuildPath() {
+task setBuildPath {
     println "In set build path now"
     println "Jenkins workspace - $jenkins"
     println "Build directory - $buildDir"
     println "Test environment location - $testEnvironment"
 }
 
-task copyFiles() {
+task copyFiles {
+    println "Test"
     doLast {
-        println ("Copying files now")
+        println "Copying files now"
     }
 }
+
+copyFiles.dependsOn setBuildPath

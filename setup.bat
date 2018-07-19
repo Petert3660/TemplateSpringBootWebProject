@@ -1,7 +1,11 @@
-cd build\libs
-del *.*
+set myDirName = ".\build\libs"
 
-cd ..\..
+if exist myDirName (
+    cd build\libs
+    del *.*
+    cd ..\..
+)
+
 call gradlew clean build
 call run
 cd ..\..

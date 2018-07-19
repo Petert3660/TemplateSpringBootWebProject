@@ -40,8 +40,6 @@ public class MyUpdatesController {
     @PostMapping(value = "/myupdates/removepost")
     public String remove(RemovalForm removalForm, Model model) {
 
-        System.out.println("In the post removal method now, with buttonId - " + removalForm.getButtonId());
-
         if (!StringUtils.isEmpty(removalForm.getButtonId())) {
             updateEntityRepository.deleteById(Long.parseLong(removalForm.getButtonId()));
         }

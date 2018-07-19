@@ -67,6 +67,6 @@ public class TestUpdateEntitySort {
         assertThat(unsortedTestList.get(1).getTags(), is(TEST_TAGS_1));
         assertThat(unsortedTestList.get(1).getTitle(), is(TEST_TITLE_1));
         assertThat(unsortedTestList.get(1).getUsername(), is(TEST_USERNAME_1));
-        assertThat(unsortedTestList.get(1).getDetails(), is(TEST_DETAILS_1));
+        assertThat(unsortedTestList.get(1).getDetails(), is(TEST_DETAILS_2));
     }
 }

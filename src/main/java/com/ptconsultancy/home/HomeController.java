@@ -39,9 +39,14 @@ public class HomeController {
             return "redirect:changepassword";
         }
 
+        List<UpdateEntity> sortedEntities = updateEntitySort.sortByDate((List<UpdateEntity>) updateEntityRepository.findAll());
+        List<UpdateEntity> todaysList = updateEntitySort.getTodaysList(sortedEntities);
+        List<UpdateEntity> olderList = updateEntitySort.getOlderList(sortedEntities);
+
         model.addAttribute("userIsAdmin", userDetailUtils.isAdminUser());
         model.addAttribute("userName", userDetailUtils.getUserName());
-        model.addAttribute("updates", updateEntitySort.sortByDate((List<UpdateEntity>) updateEntityRepository.findAll()));
+        model.addAttribute("updates", todaysList);
+        model.addAttribute("olderupdates", olderList);
 
         return "home";
     }

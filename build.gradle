@@ -56,6 +56,10 @@ dependencies {
 def generatedSources = "src/main/generated"
 def generatedOutputDir = file("$generatedSources")
 
+def jenkins = System.getenv('JENKINS')
+def buildDir = "${jenkins}\\TemplateSpringBootWebProject"
+def testEnvironment = "C:\\PTConsultancy\\LocalTestEnvironment"
+
 compileJava() {
     sourceCompatibility = '1.8'
     targetCompatibility = '1.8'
@@ -75,5 +79,18 @@ sourceSets {
         java {
             srcDirs += generatedOutputDir
         }
+    }
+}
+
+task setBuildPath() {
+    println "In set build path now"
+    println "Jenkins workspace - $jenkins"
+    println "Build directory - $buildDir"
+    println "Test environment location - $testEnvironment"
+}
+
+task copyFiles() {
+    doLast {
+        println ("Copying files now")
     }
 }

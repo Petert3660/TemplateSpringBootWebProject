@@ -1,3 +1,3 @@
 cd build\libs
 
-java -jar TemplateSpringBootWebProject.jar
+java -jar TemplateSpringBootWebProject.jar no-file

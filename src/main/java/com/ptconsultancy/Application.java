@@ -37,7 +37,9 @@ public class Application implements CommandLineRunner {
     @Override
     public void run(String... strings) throws Exception {
         populateDatabase();
-        prepareRunnableBatchFile();
+        if (strings == null) {
+            prepareRunnableBatchFile();
+        }
         outputMessage();
     }
 
@@ -79,7 +81,7 @@ public class Application implements CommandLineRunner {
                 RandomAccessFile fout = new RandomAccessFile("run.bat", "rw");
 
                 fout.writeBytes("cd build\\libs\n\n");
-                fout.writeBytes("java -jar " + projectFilename);
+                fout.writeBytes("java -jar " + projectFilename + " no-file");
 
                 fout.close();
             } else {

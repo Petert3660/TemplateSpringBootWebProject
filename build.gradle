@@ -89,6 +89,9 @@ sourceSets {
 task setBuildPaths {
     println "Setting up test environment"
 
+    println "Jenkins directory - ${jenkins}"
+    println "Build directory - ${buildDir}"
+
     delete fileTree("${testDir}")
     file("${testDir}").mkdirs()
 }

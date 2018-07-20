@@ -2,6 +2,7 @@ package com.ptconsultancy.updates;
 
 import com.ptconsultancy.entities.UpdateEntity;
 import com.ptconsultancy.repositories.UpdateEntityRepository;
+import com.ptconsultancy.utilities.Constants;
 import com.ptconsultancy.utilities.UserDetailUtils;
 import java.time.LocalDateTime;
 import javax.validation.Valid;
@@ -38,9 +39,16 @@ public class UpdateController {
     }
 
     @PostMapping(value = "/newupdate/save")
-    public String save(@Valid NewUpdateForm newUpdateForm, BindingResult bindingResult) {
+    public String save(@Valid NewUpdateForm newUpdateForm, BindingResult bindingResult, Model model) {
 
         if (bindingResult.hasErrors()) {
+            return "newupdate";
+        }
+
+        if (!userDetailUtils.getUserName().equals(Constants.SUPERUSER_USERNAME) && newUpdateForm.getTags().equals(Constants.SUPERUSER_TAG)) {
+
+            model.addAttribute("usernameTagError", true);
+
             return "newupdate";
         }
 

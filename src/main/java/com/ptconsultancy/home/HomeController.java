@@ -4,6 +4,7 @@ import com.ptconsultancy.entities.UpdateEntity;
 import com.ptconsultancy.repositories.UpdateEntityRepository;
 import com.ptconsultancy.users.UserRepository;
 import com.ptconsultancy.utilities.CommonUtils;
+import com.ptconsultancy.utilities.Constants;
 import com.ptconsultancy.utilities.UpdateEntitySort;
 import com.ptconsultancy.utilities.UserDetailUtils;
 import java.time.LocalDateTime;
@@ -24,10 +25,6 @@ public class HomeController {
     private UpdateEntitySort updateEntitySort;
 
     private UserDetailUtils userDetailUtils;
-
-    private static final String STANDARD_TITLE = "Welcome to this message board";
-    private static final String SUPERUSER_USERNAME = "superuser";
-    private static  final String SUPERUSER_TAG = "#admin";
 
     @Autowired
     public HomeController(UpdateEntityRepository updateEntityRepository, UserRepository userRepository, UpdateEntitySort updateEntitySort,
@@ -50,8 +47,8 @@ public class HomeController {
 
         LocalDateTime today = LocalDateTime.now();
         if (todaysList.size() == 0) {
-            String message = STANDARD_TITLE + " on " + CommonUtils.getDateString(today);
-            UpdateEntity firstPost = new UpdateEntity(SUPERUSER_TAG, STANDARD_TITLE, SUPERUSER_USERNAME, message, today);
+            String message = Constants.STANDARD_TITLE + " on " + CommonUtils.getDateString(today);
+            UpdateEntity firstPost = new UpdateEntity(Constants.SUPERUSER_TAG, Constants.STANDARD_TITLE, Constants.SUPERUSER_USERNAME, message, today);
             updateEntityRepository.save(firstPost);
             sortedEntities = updateEntitySort.sortByDate((List<UpdateEntity>) updateEntityRepository.findAll());
             todaysList = updateEntitySort.getTodaysList(sortedEntities);
@@ -70,8 +67,8 @@ public class HomeController {
     private List<UpdateEntity> removeStandardMessageIfPresent(List<UpdateEntity> sortedEntities, LocalDateTime today) {
 
         for (UpdateEntity entity : sortedEntities) {
-            if (!CommonUtils.getDateString(today).equals(CommonUtils.getDateString(entity.getCreatedAt())) && entity.getTags().equals(SUPERUSER_TAG)
-                && entity.getTitle().equals(STANDARD_TITLE)) {
+            if (!CommonUtils.getDateString(today).equals(CommonUtils.getDateString(entity.getCreatedAt())) && entity.getTags().equals(Constants.SUPERUSER_TAG)
+                && entity.getTitle().equals(Constants.STANDARD_TITLE)) {
                 updateEntityRepository.delete(entity);
                 break;
             }

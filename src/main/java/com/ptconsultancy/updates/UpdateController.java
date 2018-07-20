@@ -47,6 +47,8 @@ public class UpdateController {
 
         if (!userDetailUtils.getUserName().equals(Constants.SUPERUSER_USERNAME) && newUpdateForm.getTags().equals(Constants.SUPERUSER_TAG)) {
 
+            model.addAttribute("userIsAdmin", userDetailUtils.isAdminUser());
+            model.addAttribute("userName", userDetailUtils.getUserName());
             model.addAttribute("usernameTagError", true);
 
             return "newupdate";

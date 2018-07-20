@@ -1,7 +1,7 @@
 package com.ptconsultancy.entities;
 
+import com.ptconsultancy.utilities.CommonUtils;
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -79,16 +79,10 @@ public class UpdateEntity {
     }
 
     public String getCreatedAtAsString() {
-
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-
-        return createdAt.format(formatter);
+        return CommonUtils.getDateString(createdAt);
     }
 
     public String getCreatedAtTimeAsString() {
-
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
-
-        return createdAt.format(formatter);
+        return CommonUtils.getTimeAsString(createdAt);
     }
 }

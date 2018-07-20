@@ -35,6 +35,10 @@
               <td>&nbsp;</td>
               <td th:errors="*{tags}">Tags Error</td>
             </div>
+            <div th:if="${usernameTagError}">
+              <td>&nbsp;</td>
+              <td><label th:text="#{messages.newupdate.usernametagerror}"/></td>
+            </div>
           </tr>
           <tr><td>&nbsp;</td></tr>
           <tr><td><label th:text="#{messages.newupdate.date}"/><label id="date"></label></td></tr>

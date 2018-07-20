@@ -101,7 +101,7 @@ task copyFiles(dependsOn: test) {
     doLast {
         println "Copying files to testEnvironment now"
         copy {
-            from file("${localBuildDir}/build/libs")
+            from file("${buildDir}/build/libs")
             include "*.jar"
             into file("${testEnvironment}/${projectName}")
         }

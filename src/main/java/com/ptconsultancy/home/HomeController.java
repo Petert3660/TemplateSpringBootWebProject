@@ -3,8 +3,10 @@ package com.ptconsultancy.home;
 import com.ptconsultancy.entities.UpdateEntity;
 import com.ptconsultancy.repositories.UpdateEntityRepository;
 import com.ptconsultancy.users.UserRepository;
+import com.ptconsultancy.utilities.CommonUtils;
 import com.ptconsultancy.utilities.UpdateEntitySort;
 import com.ptconsultancy.utilities.UserDetailUtils;
+import java.time.LocalDateTime;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -22,6 +24,10 @@ public class HomeController {
     private UpdateEntitySort updateEntitySort;
 
     private UserDetailUtils userDetailUtils;
+
+    private static final String STANDARD_TITLE = "Welcome to this message board";
+    private static final String SUPERUSER_USERNAME = "superuser";
+    private static  final String SUPERUSER_TAG = "#admin";
 
     @Autowired
     public HomeController(UpdateEntityRepository updateEntityRepository, UserRepository userRepository, UpdateEntitySort updateEntitySort,
@@ -41,7 +47,17 @@ public class HomeController {
 
         List<UpdateEntity> sortedEntities = updateEntitySort.sortByDate((List<UpdateEntity>) updateEntityRepository.findAll());
         List<UpdateEntity> todaysList = updateEntitySort.getTodaysList(sortedEntities);
-        List<UpdateEntity> olderList = updateEntitySort.getOlderList(sortedEntities);
+
+        LocalDateTime today = LocalDateTime.now();
+        if (todaysList.size() == 0) {
+            String message = STANDARD_TITLE + " on " + CommonUtils.getDateString(today);
+            UpdateEntity firstPost = new UpdateEntity(SUPERUSER_TAG, STANDARD_TITLE, SUPERUSER_USERNAME, message, today);
+            updateEntityRepository.save(firstPost);
+            sortedEntities = updateEntitySort.sortByDate((List<UpdateEntity>) updateEntityRepository.findAll());
+            todaysList = updateEntitySort.getTodaysList(sortedEntities);
+        }
+
+        List<UpdateEntity> olderList = removeStandardMessageIfPresent(sortedEntities, today);
 
         model.addAttribute("userIsAdmin", userDetailUtils.isAdminUser());
         model.addAttribute("userName", userDetailUtils.getUserName());
@@ -49,6 +65,20 @@ public class HomeController {
         model.addAttribute("olderupdates", olderList);
 
         return "home";
+    }
+
+    private List<UpdateEntity> removeStandardMessageIfPresent(List<UpdateEntity> sortedEntities, LocalDateTime today) {
+
+        for (UpdateEntity entity : sortedEntities) {
+            if (!CommonUtils.getDateString(today).equals(CommonUtils.getDateString(entity.getCreatedAt())) && entity.getTags().equals(SUPERUSER_TAG)
+                && entity.getTitle().equals(STANDARD_TITLE)) {
+                updateEntityRepository.delete(entity);
+                break;
+            }
+        }
+        sortedEntities = updateEntitySort.getOlderList(sortedEntities);
+
+        return sortedEntities;
     }
 
     @PostMapping(value = "/home")

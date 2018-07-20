@@ -2,7 +2,6 @@ package com.ptconsultancy.utilities;
 
 import com.ptconsultancy.entities.UpdateEntity;
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -40,12 +39,10 @@ public class UpdateEntitySort {
 
     public List<UpdateEntity> getTodaysList(List<UpdateEntity> sortedEntities) {
 
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-        String date = LocalDateTime.now().format(formatter);
         List<UpdateEntity> result = new ArrayList<UpdateEntity>();
 
         for (UpdateEntity entity : sortedEntities) {
-            if (entity.getCreatedAtAsString().equals(date)) {
+            if (CommonUtils.getDateString(LocalDateTime.now()).equals(CommonUtils.getDateString(entity.getCreatedAt()))) {
                 result.add(entity);
             }
         }
@@ -55,12 +52,10 @@ public class UpdateEntitySort {
 
     public List<UpdateEntity> getOlderList(List<UpdateEntity> sortedEntities) {
 
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-        String date = LocalDateTime.now().format(formatter);
         List<UpdateEntity> result = new ArrayList<UpdateEntity>();
 
         for (UpdateEntity entity : sortedEntities) {
-            if (!entity.getCreatedAtAsString().equals(date)) {
+            if (!CommonUtils.getDateString(LocalDateTime.now()).equals(CommonUtils.getDateString(entity.getCreatedAt()))) {
                 result.add(entity);
             }
         }

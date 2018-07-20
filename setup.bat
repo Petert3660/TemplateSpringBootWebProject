@@ -6,7 +6,7 @@ if exist myDirName (
     cd ..\..
 )
 
-call gradlew clean build
+call gradlew clean build copyFiles
 call run
 cd ..\..
 

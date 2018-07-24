@@ -1,5 +1,6 @@
 package com.ptconsultancy;
 
+import com.ptconsultancy.admin.BuildVersion;
 import com.ptconsultancy.entities.UpdateEntity;
 import com.ptconsultancy.repositories.UpdateEntityRepository;
 import com.ptconsultancy.users.Role;
@@ -45,6 +46,7 @@ public class Application implements CommandLineRunner {
 
     private void outputMessage() {
         String serverPort = env.getProperty("server.port");
+        System.out.println("Simple Message Board Running, Version: " + BuildVersion.getBuildVersion());
         System.out.println("************************************************************************");
         System.out.println("* The application is now running on:- localhost:" + serverPort + "                   *");
         System.out.println("************************************************************************");

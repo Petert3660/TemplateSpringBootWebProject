@@ -22,7 +22,6 @@ public class AdminController {
 
     UserRepository userRepository;
 
-
     UserDetailUtils userDetailUtils;
 
     @Autowired
@@ -35,6 +34,7 @@ public class AdminController {
     public String tags(Model model) {
 
         model.addAttribute("userName", userDetailUtils.getUserName());
+        model.addAttribute("version", BuildVersion.getBuildVersion());
 
         return "admin";
     }
@@ -45,6 +45,7 @@ public class AdminController {
         createAndAddRoles(model);
 
         model.addAttribute("userName", userDetailUtils.getUserName());
+        model.addAttribute("version", BuildVersion.getBuildVersion());
 
         return "adduser";
     }
@@ -78,6 +79,7 @@ public class AdminController {
         createAndAddUsernames(model);
 
         model.addAttribute("userName", userDetailUtils.getUserName());
+        model.addAttribute("version", BuildVersion.getBuildVersion());
 
         return "deleteuser";
     }

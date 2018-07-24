@@ -60,7 +60,7 @@ def generatedSources = "src/main/generated"
 def generatedOutputDir = file("$generatedSources")
 
 //def jenkins = System.getenv('JENKINS')
-def jenkins = "C:/\"Program Files (x86)\"/Jenkins/workspace"
+def jenkins = "C:/Program Files (x86)/Jenkins/workspace"
 def testEnvironment = "C:/PTConsultancy/LocalTestEnvironment"
 def testDir = "${testEnvironment}/${projectName}"
 def buildDir = "${jenkins}/${projectName}"

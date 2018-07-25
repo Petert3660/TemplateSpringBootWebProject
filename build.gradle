@@ -84,10 +84,9 @@ sourceSets {
     }
 }
 
-jar {
+bootJar {
     manifest {
-        attributes 'Main-Class': 'com.ptconsultancy.Application',
-                'Implementation-Title': projectName,
+        attributes 'Implementation-Title': projectName,
                 'Implementation-Version': version
     }
 }

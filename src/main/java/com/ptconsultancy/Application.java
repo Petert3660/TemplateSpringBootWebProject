@@ -123,7 +123,6 @@ public class Application implements CommandLineRunner {
                     } else if (userDetails[2].equals("user")) {
                         userRepository.save(new User(userDetails[0], userDetails[1], Role.USER, userDetails[3], userDetails[4], false));
                     }
-
                 }
             } while (!StringUtils.isEmpty(prop));
 
